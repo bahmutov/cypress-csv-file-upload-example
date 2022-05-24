@@ -1,6 +1,7 @@
 {
-  "fixturesFolder": false,
   "supportFile": false,
   "pluginsFile": false,
-  "baseUrl": "http://localhost:4600"
+  "baseUrl": "http://localhost:4600",
+  "viewportWidth": 400,
+  "viewportHeight": 300
 }

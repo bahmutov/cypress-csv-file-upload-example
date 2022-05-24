@@ -1,3 +1,13 @@
 <body>
   <h1>Upload CSV Example</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="file" class="custom-uploader">Upload your CSV file</label>
+    <div>
+      <input id="file" type="file" name="fileToUpload" accept="text/csv" />
+    </div>
+    <hr />
+    <div>
+      <button type="submit" name="submit">Upload File</button>
+    </div>
+  </form>
 </body>

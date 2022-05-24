@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/bahmutov/cypress-csv-file-upload-example#readme",
   "devDependencies": {
+    "@fastify/static": "^5.0.2",
     "cypress": "^9.6.1",
     "fastify": "^3.29.0",
+    "fastify-file-upload": "^4.0.0",
     "fastify-static": "^4.7.0",
     "prettier": "^2.6.2",
     "start-server-and-test": "^1.14.0"

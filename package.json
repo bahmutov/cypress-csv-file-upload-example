@@ -1,0 +1,30 @@
+{
+  "name": "cypress-csv-file-upload-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "start": "node ./server",
+    "cy:open": "cypress open",
+    "dev": "start-test 4600 cy:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-csv-file-upload-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-csv-file-upload-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-csv-file-upload-example#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "fastify": "^3.29.0",
+    "fastify-static": "^4.7.0",
+    "prettier": "^2.6.2",
+    "start-server-and-test": "^1.14.0"
+  }
+}
